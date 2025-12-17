@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWF Gemach - Interest-Free Loans for the NW London Kehilla</title>
+    <meta name="description" content="TWF Gemach provides interest-free loans to members of the NW London Orthodox Jewish community in times of need.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'twf-teal': '#0D5750',
+                        'twf-teal-light': '#156B63',
+                        'twf-teal-dark': '#083D38',
+                    },
+                    fontFamily: {
+                        'serif': ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #0D5750 0%, #156B63 100%);
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(13, 87, 80, 0.3);
+        }
+        
+        .btn-secondary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #0D5750;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4 sm:py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div>
+                        <h1 class="text-3xl sm:text-4xl font-serif font-bold text-twf-teal tracking-tight">TWF</h1>
+                        <div class="h-0.5 bg-twf-teal w-full mt-1"></div>
+                        <h2 class="text-xl sm:text-2xl font-sans tracking-wide text-twf-teal mt-1">GEMACH</h2>
+                    </div>
+                </div>
+                <a href="mailto:twfgemach@tiferesyisroel.org.uk" 
+                   class="text-sm sm:text-base text-gray-600 hover:text-twf-teal transition-colors">
+                    twfgemach@tiferesyisroel.org.uk
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16 sm:py-24">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl sm:text-5xl font-bold mb-6">Interest-Free Loans for the NW London Kehilla</h2>
+            <p class="text-xl sm:text-2xl mb-12 text-gray-100">Supporting our community in times of financial need</p>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#application" 
+                   class="btn-primary w-full sm:w-auto bg-white text-twf-teal px-10 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-xl">
+                    Apply for a Loan
+                </a>
+                <a href="#donate" 
+                   class="btn-secondary w-full sm:w-auto bg-transparent border-2 border-white text-white px-10 py-4 rounded-lg text-lg font-semibold">
+                    Support the Gemach
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 sm:py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-3xl sm:text-4xl font-bold text-twf-teal mb-8 text-center">About TWF Gemach</h3>
+            
+            <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                    TWF Gemach operates under the MTT Foundation (Registered Charity No. 1165689), providing interest-free loans to members of the Orthodox Jewish community in North West London. Our mission is rooted in the timeless Jewish value of gemilus chasadim – acts of loving kindness.
+                </p>
+                
+                <p>
+                    We understand that unexpected financial challenges can affect anyone. Whether it's an urgent medical expense, essential home repairs, family simchas, or temporary cash flow difficulties, we're here to help members of our kehilla navigate these challenges with dignity and without the burden of interest. 
+                </p>
+                
+                <p>
+                    Our Gemach is sustained entirely by the generosity of donors who share our commitment to supporting the community. Every loan is made possible through the chesed of those who contribute or lend to the Gemach, ensuring that we can continue to serve families in need.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 sm:py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h3 class="text-3xl sm:text-4xl font-bold text-twf-teal mb-12 text-center">How It Works</h3>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-twf-teal text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Apply Online</h4>
+                    <p class="text-gray-600">Complete our simple application form with your details and loan requirements.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-twf-teal text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Review Process</h4>
+                    <p class="text-gray-600">Our administrators carefully review your application with sensitivity and confidentiality.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-twf-teal text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Decision</h4>
+                    <p class="text-gray-600">We'll contact you by email with our decision and next steps.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-twf-teal text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Loan Disbursement</h4>
+                    <p class="text-gray-600">Upon approval in principle, once terms are agreed and documents signed, funds are provided.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility Criteria -->
+    <section class="py-16 sm:py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-3xl sm:text-4xl font-bold text-twf-teal mb-8 text-center">Eligibility Criteria</h3>
+            
+            <div class="bg-gray-50 border-l-4 border-twf-teal p-8 rounded-r-lg">
+                <ul class="space-y-4 text-lg text-gray-700">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Member of the Orthodox Jewish community in North West London</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Demonstrable need for financial assistance which fall under relief of poverty or furtherance of religious observance</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Ability to repay the loan over an agreed timeframe - maximum term of 24 months</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Willingness to provide necessary documentation</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>No outstanding loans with the Gemach (unless previously agreed)</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <p class="text-center text-gray-600 mt-8 italic">
+                Each application is reviewed on its individual merits with compassion and understanding.
+            </p>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section id="application" class="py-16 sm:py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h3 class="text-3xl sm:text-4xl font-bold text-twf-teal mb-6">Ready to Apply?</h3>
+            <p class="text-xl text-gray-700 mb-10">
+                Please complete our confidential application form. All information is treated with the utmost privacy and sensitivity.
+            </p>
+            
+            <div class="bg-white p-8 sm:p-12 rounded-lg shadow-lg">
+                <p class="text-lg text-gray-700 mb-8">
+                    Click the button below to access our secure application form. You'll need to provide personal details, financial information, and the purpose of your loan request.
+                </p>
+                
+                <!-- Replace this URL with your actual Google Form URL -->
+                <a href="https://forms.gle/H5VGexyoVC6eJy976" 
+                   target="_blank"
+                   class="btn-primary inline-block bg-twf-teal text-white px-12 py-4 rounded-lg text-xl font-semibold shadow-lg hover:shadow-xl">
+                    Open Application Form
+                </a>
+                
+                <p class="text-sm text-gray-500 mt-6">
+                    By submitting an application, you agree to our <a href="privacy.html" class="text-twf-teal hover:underline">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="py-16 sm:py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h3 class="text-3xl sm:text-4xl font-bold text-twf-teal mb-6">Support Our Gemach</h3>
+            <p class="text-xl text-gray-700 mb-10">
+                Your generous donations or loans enable us to continue providing interest-free loans to families and individuals in need.
+            </p>
+            
+            <div class="bg-gray-50 p-8 sm:p-12 rounded-lg border-2 border-twf-teal">
+                <p class="text-lg text-gray-700 mb-8">
+                    Every contribution or loan, large or small, makes a direct impact on our community. Your chesed helps families overcome financial challenges with dignity.
+                </p>
+                
+                <div class="space-y-4 text-left max-w-xl mx-auto mb-8">
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span class="text-gray-700">100% of donations go directly to providing loans</span>
+                    </div>
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span class="text-gray-700">Donations are recycled as loans are repaid</span>
+                    </div>
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-twf-teal mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span class="text-gray-700">Tax-efficient giving through our registered charity</span>
+                    </div>
+                </div>
+                
+                <p class="text-lg text-gray-700 mb-6">
+                    To discuss donation opportunities or arrange a contribution, please contact us at:
+                </p>
+                
+                <a href="mailto:twfgemach@tiferesyisroel.org.uk" 
+                   class="inline-block bg-twf-teal text-white px-10 py-3 rounded-lg text-lg font-semibold hover:bg-twf-teal-dark transition-colors">
+                    Contact Us About Donating
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-twf-teal-dark text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <h4 class="text-2xl font-serif font-bold mb-2">TWF Gemach</h4>
+                    <p class="text-gray-300 mb-4">Interest-Free Loans for the NW London Kehilla</p>
+	<p class="text-gray-300 mb-4">Gemach administrators: Benzi Lieblich & Yehuda Diamant</p>
+                    <p class="text-sm text-gray-400">
+                        Operating under MTT Foundation<br>
+                        Registered Charity No. 1165689
+                    </p>
+                </div>
+                
+                <div>
+                    <h5 class="font-semibold mb-3 text-lg">Contact</h5>
+                    <p class="text-gray-300 mb-2">
+                        <a href="mailto:twfgemach@tiferesyisroel.org.uk" class="hover:text-white transition-colors">
+                            twfgemach@tiferesyisroel.org.uk
+                        </a>
+                    </p>
+                    <p class="text-sm text-gray-400 mt-4">
+                        <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-600 pt-6 text-center text-sm text-gray-400">
+                <p>&copy; 2025 TWF Gemach. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
